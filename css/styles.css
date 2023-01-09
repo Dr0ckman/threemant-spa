@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 1rem;
+}
+
+#header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #72D883;
+}
+
+.navbar-element{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#intro h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #72D883;
+}
+
+#intro p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+#formulario h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #72D883;
+}
+
+#formulario {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#mision {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#mision h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #72D883;
+
+}
+
+.check{
+    padding: 1rem 0 1rem 0;
+    fill: #72D883;
+}
+
+.center-mission{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
