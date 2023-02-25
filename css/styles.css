@@ -2,58 +2,65 @@
     margin: 0;
 }
 
-body {
-    margin: 1rem;
-}
-
 #header {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem;
 }
 
 .navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
+.navbar-nav .nav-item:hover .nav-link{
     color: #72D883;
 }
 
-.navbar-element{
+.nav-item:visited{
+    text-decoration: none;
+}
+
+.current-page{
+    color: #72D883;
+}
+
+.navbar-element {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
-#intro h1{
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.content {
+    margin: 0 1rem 0 1rem;
+}
+
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 3rem;
     color: #72D883;
 }
 
-#intro p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.6rem;
-}
-
-#formulario h3{
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #72D883;
 }
 
 #formulario {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3%;
 }
 
 #mision {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 18%;
 }
 
-#mision h4{
+h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
@@ -61,13 +68,86 @@ body {
 
 }
 
-.check{
-    padding: 1rem 0 1rem 0;
+.check {
+    padding: 1% 0;
     fill: #72D883;
 }
 
-.center-mission{
+.center-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #72D883;
+    margin-bottom: 1rem;
+}
+
+.round-placeholder {
+    border-radius: 100%;
+}
+
+.texto-trabajos-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    height: 3.5rem;
+}
+
+.texto-trabajos-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#clientes {
+    margin-top: 18%;
+    margin-bottom: 12%;
+}
+
+#footer {
+    background-color: #000;
+    padding: 4% 0;
+    margin-top: 2%;
+    border-radius: 30% 0 0 0;
+}
+
+.elemento-footer {
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.texto-footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #72D883;
+}
+
+#trabajos{
+    margin-top: 18%;
+}
+
+#quienes-somos p,
+#nuestro-curriculum p,
+#intro p,
+#nuestros-servicios p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#nuestros-servicios p{
+    margin-bottom: 8%;
+}
+
+#nuestros-servicios img{
+    margin-bottom: 5%;
+    display: block;
 }
